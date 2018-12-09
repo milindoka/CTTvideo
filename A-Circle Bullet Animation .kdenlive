@@ -30,8 +30,8 @@
   <property name="kdenlive:file_hash">4b1687dd9ca902dcbdae7b0316ac2412</property>
   <property name="global_feed">1</property>
  </producer>
- <producer id="2" in="0" out="254">
-  <property name="length">255</property>
+ <producer id="2" in="0" out="314">
+  <property name="length">315</property>
   <property name="eof">pause</property>
   <property name="resource">0xffffffff</property>
   <property name="aspect_ratio">1</property>
@@ -51,7 +51,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
-  <property name="kdenlive:docproperties.position">204</property>
+  <property name="kdenlive:docproperties.position">0</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -113,6 +113,7 @@
  </playlist>
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Video 1</property>
+  <entry producer="2" in="0" out="203"/>
  </playlist>
  <playlist id="playlist4">
   <property name="kdenlive:track_name">Video 2</property>
@@ -123,10 +124,11 @@
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
     <property name="kdenlive_ix">1</property>
-    <property name="transition.geometry">0=864/486:192x108:100;25=0/0:1920x1080:100</property>
+    <property name="transition.geometry">0=950/534:19x11:100;25=0/0:1920x1080:100</property>
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
  </playlist>
